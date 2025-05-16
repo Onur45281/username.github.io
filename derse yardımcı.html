@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Ders Destek</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        .header {
+            background-color: #a3bffa;
+            padding: 20px;
+            text-align: center;
+            color: #2d2d2d;
+        }
+        .nav {
+            background-color: #7287fd;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        .nav a:hover {
+            color: #d0d9ff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+        .section h2 {
+            color: #4834d4;
+            margin-top: 0;
+        }
+        .resources .resource {
+            margin-bottom: 15px;
+        }
+        .resources a {
+            color: #4834d4;
+            text-decoration: none;
+        }
+        .resources a:hover {
+            text-decoration: underline;
+        }
+        .notes textarea {
+            width: 100%;
+            height: 150px;
+            border: 1px solid #d0d9ff;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1em;
+        }
+        .motivation {
+            background-color: #dfe4ea;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            font-style: italic;
+        }
+        @media (max-width: 600px) {
+            .nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .container {
+                padding: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Minimal Ders Destek</h1>
+        <p>Derslerinizi sade ve etkili bir şekilde yönetin!</p>
+    </div>
+    <div class="nav">
+        <a href="#home">Ana Sayfa</a>
+        <a href="#resources">Kaynaklar</a>
+        <a href="#notes">Notlar</a>
+        <a href="#motivation">Motivasyon</a>
+    </div>
+    <div class="container">
+        <div id="home" class="section">
+            <h2>Hoş Geldiniz!</h2>
+            <p>Bu site, derslerinizi planlamak, kaynaklara erişmek ve notlarınızı tutmak için minimal bir çözüm sunar. Hızlı, sade ve etkili!</p>
+        </div>
+        <div id="resources" class="section">
+            <h2>Ders Kaynakları</h2>
+            <div class="resource">
+                <h3>Matematik</h3>
+                <p><a href="https://www.khanacademy.org/math" target="_blank">Khan Academy - Matematik Dersleri</a></p>
+            </div>
+            <div class="resource">
+                <h3>Fen Bilimleri</h3>
+                <p><a href="https://www.physicsclassroom.com/" target="_blank">Physics Classroom - Fizik Kaynakları</a></p>
+            </div>
+        </div>
+        <div id="notes" class="section">
+            <h2>Hızlı Notlar</h2>
+            <textarea placeholder="Ders notlarınızı buraya yazabilirsiniz..."></textarea>
+        </div>
+        <div id="motivation" class="section">
+            <h2>Günün Motivasyonu</h2>
+            <div class="motivation">
+                <p>"Her küçük adım, büyük başarılara giden yoldur. Devam et!"</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
